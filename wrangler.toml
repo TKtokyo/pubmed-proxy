@@ -1,0 +1,8 @@
+name = "pubmed-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+NCBI_TOOL = "pubmed-proxy"
+
+# NCBI_API_KEY と NCBI_EMAIL は wrangler secret put で設定すること
